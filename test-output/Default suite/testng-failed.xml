@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Topic_01_Check_Environment">
+      <class name="webdriver.Topic_04_Xpath_Part_II">
         <methods>
-          <include name="afterClass"/>
-          <include name="TC_01_ValidateCurrentUrl"/>
+          <include name="Register_06_Incorrect_Phone"/>
           <include name="beforeClass"/>
-          <include name="TC_02_ValidatePageTitle"/>
-          <include name="TC_03_LoginFormDisplayed"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- webdriver.Topic_01_Check_Environment -->
+      </class> <!-- webdriver.Topic_04_Xpath_Part_II -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
