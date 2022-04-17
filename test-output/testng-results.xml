@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-21T02:50:34Z" name="Default suite" finished-at="2022-03-21T02:50:47Z" duration-ms="12468">
+  <suite started-at="2022-04-17T14:43:53Z" name="Default suite" finished-at="2022-04-17T14:44:12Z" duration-ms="19382">
     <groups>
     </groups>
-    <test started-at="2022-03-21T02:50:34Z" name="Default test" finished-at="2022-03-21T02:50:47Z" duration-ms="12468">
-      <class name="webdriver.Topic_04_Xpath_Part_II">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_04_Xpath_Part_II@14ec4505]" started-at="2022-03-21T02:50:34Z" name="beforeClass" finished-at="2022-03-21T02:50:38Z" duration-ms="3320" status="PASS">
+    <test started-at="2022-04-17T14:43:53Z" name="Default test" finished-at="2022-04-17T14:44:12Z" duration-ms="19382">
+      <class name="webdriver.Topic_05_WebBrowser_Excercise">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:43:53Z" name="beforeClass" finished-at="2022-04-17T14:43:56Z" duration-ms="3272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Register_01_Empty_Data()[pri:0, instance:webdriver.Topic_04_Xpath_Part_II@14ec4505]" started-at="2022-03-21T02:50:38Z" name="Register_01_Empty_Data" finished-at="2022-03-21T02:50:41Z" duration-ms="2930" status="PASS">
+        <test-method signature="TC_01_Url()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:43:56Z" name="TC_01_Url" finished-at="2022-04-17T14:44:02Z" duration-ms="5496" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Register_01_Empty_Data -->
-        <test-method signature="Register_02_Invalid_Email()[pri:0, instance:webdriver.Topic_04_Xpath_Part_II@14ec4505]" started-at="2022-03-21T02:50:41Z" name="Register_02_Invalid_Email" finished-at="2022-03-21T02:50:41Z" duration-ms="464" status="PASS">
+        </test-method> <!-- TC_01_Url -->
+        <test-method signature="TC_02_ValidatePageTitle()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:44:02Z" name="TC_02_ValidatePageTitle" finished-at="2022-04-17T14:44:04Z" duration-ms="2508" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Register_02_Invalid_Email -->
-        <test-method signature="Register_03_Incorrect_Confirm_Email()[pri:0, instance:webdriver.Topic_04_Xpath_Part_II@14ec4505]" started-at="2022-03-21T02:50:41Z" name="Register_03_Incorrect_Confirm_Email" finished-at="2022-03-21T02:50:42Z" duration-ms="1084" status="PASS">
+        </test-method> <!-- TC_02_ValidatePageTitle -->
+        <test-method signature="TC_03_Navigation()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:44:04Z" name="TC_03_Navigation" finished-at="2022-04-17T14:44:09Z" duration-ms="4276" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Register_03_Incorrect_Confirm_Email -->
-        <test-method signature="Register_04_Password_Less_Than_6_Chars()[pri:0, instance:webdriver.Topic_04_Xpath_Part_II@14ec4505]" started-at="2022-03-21T02:50:42Z" name="Register_04_Password_Less_Than_6_Chars" finished-at="2022-03-21T02:50:44Z" duration-ms="1307" status="PASS">
+        </test-method> <!-- TC_03_Navigation -->
+        <test-method signature="TC_04_Source()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:44:09Z" name="TC_04_Source" finished-at="2022-04-17T14:44:12Z" duration-ms="2992" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Register_04_Password_Less_Than_6_Chars -->
-        <test-method signature="Register_05_Incorrect_Confirm_Password()[pri:0, instance:webdriver.Topic_04_Xpath_Part_II@14ec4505]" started-at="2022-03-21T02:50:44Z" name="Register_05_Incorrect_Confirm_Password" finished-at="2022-03-21T02:50:45Z" duration-ms="1290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Register_05_Incorrect_Confirm_Password -->
-        <test-method signature="Register_06_Incorrect_Phone()[pri:0, instance:webdriver.Topic_04_Xpath_Part_II@14ec4505]" started-at="2022-03-21T02:50:45Z" name="Register_06_Incorrect_Phone" finished-at="2022-03-21T02:50:46Z" duration-ms="1209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Register_06_Incorrect_Phone -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_04_Xpath_Part_II@14ec4505]" started-at="2022-03-21T02:50:46Z" name="afterClass" finished-at="2022-03-21T02:50:47Z" duration-ms="841" status="PASS">
+        </test-method> <!-- TC_04_Source -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:44:12Z" name="afterClass" finished-at="2022-04-17T14:44:12Z" duration-ms="819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_04_Xpath_Part_II -->
+      </class> <!-- webdriver.Topic_05_WebBrowser_Excercise -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

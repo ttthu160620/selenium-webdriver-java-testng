@@ -123,14 +123,15 @@ public class Topic_04_Xpath_Part_II {
 	public void Register_06_Incorrect_Phone() {
 		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 		// sdt <10-11 số và >10-11 số
-//		driver.findElement(By.id("txtPhone")).sendKeys("0123456");
-//		driver.findElement(By.id("txtPhone")).sendKeys("0123456789999");
-//		
-//		driver.findElement(By.xpath("//button[@type='submit']")).click();
-//		
-//		Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(), "Số điện thoại phải từ 10-11 số.");
+		driver.findElement(By.id("txtPhone")).sendKeys("0123456");
+		driver.findElement(By.id("txtPhone")).sendKeys("0123456789999");
+		
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		
+		Assert.assertEquals(driver.findElement(By.id("txtPhone-error")).getText(), "Số điện thoại phải từ 10-11 số.");
 		
 		//sdt không đúng định dạng
+		driver.findElement(By.id("txtPhone")).clear();
 		driver.findElement(By.id("txtPhone")).sendKeys("12345");
 		
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
