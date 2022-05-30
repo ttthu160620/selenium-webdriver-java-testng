@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Topic_05_WebBrowser_Excercise">
+      <class name="webdriver.Topic_12_Iframe_Frame">
         <methods>
-          <include name="TC_01_Url"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="TC01_Iframe"/>
         </methods>
-      </class> <!-- webdriver.Topic_05_WebBrowser_Excercise -->
+      </class> <!-- webdriver.Topic_12_Iframe_Frame -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,12 +8,25 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Topic_04_Xpath_Part_II {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
-
+	By firstNameTextboxBy = By.id("txtFirstname");
+	By emailTextboxBy = By.id("txtEmail");
+	By confirmEmailTextboxBy = By.id("txtCEmail");
+	By passwordTextboxBy = By.id("txtPassword");
+	By confirmPasswordTextboxBy = By.id("txtCPassword");
+	By phoneTextboxBy = By.id("txtPhone");
+	By firstNameErrorMessage = By.id("txtFirstname-error");
+	By emailErrorMessage = By.id("txtEmail-error");
+	By confirmEmailErrorMessage = By.id("CtxtEmail-error");
+	By passwordErrorMessage = By.xpath("//label[@id='txtPassword-error']");
+	By confirmPasswordErrorMessage = By.xpath("//label[@id='CtxtPassword-error']");
+	By phoneErrorMessage = By.id("txtPhone-error");
+	
 	@BeforeClass
 	public void beforeClass() {
 		//mở browser
@@ -28,12 +41,18 @@ public class Topic_04_Xpath_Part_II {
 		//driver.get("https://www.facebook.com/");
 		//driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 	}
-
+	
+	@BeforeMethod //chạy theo từng testcase
+	public void beforeMethod() {
+		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+	}
+	
+	
 	@Test
 	public void Register_01_Empty_Data() {
 		
 		//mở app
-		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+		//driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 		
 		//Click vào Đăng ký button
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
@@ -73,10 +92,10 @@ public class Topic_04_Xpath_Part_II {
 	@Test
 	public void Register_03_Incorrect_Confirm_Email() {
 		//mở app
-		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+		//driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 		
 		// Nhập liệu
-		driver.findElement(By.id("txtFirstname")).sendKeys("ABC");
+		driver.findElement(firstNameTextboxBy).sendKeys("ABC");
 		driver.findElement(By.id("txtEmail")).sendKeys("123@123");
 		driver.findElement(By.id("txtCEmail")).sendKeys("123@123@234");
 		driver.findElement(By.id("txtPassword")).sendKeys("123456");
@@ -92,7 +111,7 @@ public class Topic_04_Xpath_Part_II {
 	
 	@Test
 	public void Register_04_Password_Less_Than_6_Chars(){
-		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+		//driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 		
 		//Nhập liệu
 		driver.findElement(By.id("txtPassword")).sendKeys("123");
@@ -107,7 +126,7 @@ public class Topic_04_Xpath_Part_II {
 	
 	@Test
 	public void Register_05_Incorrect_Confirm_Password() {
-		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+		//driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 		
 		//Nhập liệu
 		driver.findElement(By.id("txtPassword")).sendKeys("123456");
@@ -121,7 +140,7 @@ public class Topic_04_Xpath_Part_II {
 	
 	@Test
 	public void Register_06_Incorrect_Phone() {
-		driver.get("https://alada.vn/tai-khoan/dang-ky.html");
+		//driver.get("https://alada.vn/tai-khoan/dang-ky.html");
 		// sdt <10-11 số và >10-11 số
 		driver.findElement(By.id("txtPhone")).sendKeys("0123456");
 		driver.findElement(By.id("txtPhone")).sendKeys("0123456789999");

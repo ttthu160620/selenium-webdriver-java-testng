@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-17T14:43:53Z" name="Default suite" finished-at="2022-04-17T14:44:12Z" duration-ms="19382">
+  <suite started-at="2022-05-30T15:46:24Z" name="Default suite" finished-at="2022-05-30T15:46:30Z" duration-ms="6233">
     <groups>
     </groups>
-    <test started-at="2022-04-17T14:43:53Z" name="Default test" finished-at="2022-04-17T14:44:12Z" duration-ms="19382">
-      <class name="webdriver.Topic_05_WebBrowser_Excercise">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:43:53Z" name="beforeClass" finished-at="2022-04-17T14:43:56Z" duration-ms="3272" status="PASS">
+    <test started-at="2022-05-30T15:46:24Z" name="Default test" finished-at="2022-05-30T15:46:30Z" duration-ms="6233">
+      <class name="webdriver.Topic_12_Iframe_Frame">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_12_Iframe_Frame@4034c28c]" started-at="2022-05-30T15:46:24Z" name="beforeClass" finished-at="2022-05-30T15:46:25Z" duration-ms="1589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Url()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:43:56Z" name="TC_01_Url" finished-at="2022-04-17T14:44:02Z" duration-ms="5496" status="PASS">
+        <test-method signature="TC_02_Frame()[pri:0, instance:webdriver.Topic_12_Iframe_Frame@4034c28c]" started-at="2022-05-30T15:46:25Z" name="TC_02_Frame" finished-at="2022-05-30T15:46:30Z" duration-ms="4537" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_Url -->
-        <test-method signature="TC_02_ValidatePageTitle()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:44:02Z" name="TC_02_ValidatePageTitle" finished-at="2022-04-17T14:44:04Z" duration-ms="2508" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02_ValidatePageTitle -->
-        <test-method signature="TC_03_Navigation()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:44:04Z" name="TC_03_Navigation" finished-at="2022-04-17T14:44:09Z" duration-ms="4276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_03_Navigation -->
-        <test-method signature="TC_04_Source()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:44:09Z" name="TC_04_Source" finished-at="2022-04-17T14:44:12Z" duration-ms="2992" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_04_Source -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_05_WebBrowser_Excercise@4034c28c]" started-at="2022-04-17T14:44:12Z" name="afterClass" finished-at="2022-04-17T14:44:12Z" duration-ms="819" status="PASS">
+        </test-method> <!-- TC_02_Frame -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_12_Iframe_Frame@4034c28c]" started-at="2022-05-30T15:46:30Z" name="afterClass" finished-at="2022-05-30T15:46:30Z" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_05_WebBrowser_Excercise -->
+      </class> <!-- webdriver.Topic_12_Iframe_Frame -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
