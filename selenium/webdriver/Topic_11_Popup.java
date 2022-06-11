@@ -62,7 +62,7 @@ public class Topic_11_Popup {
 	public void TC02_Random_Popup_InDOM() {
 		//popup random có 2 loại:
 		//Loại 1: Luôn có trong DOM
-		// Loại 2: Hiển thị thì có trong DM và ngược lại
+		// Loại 2: Hiển thị thì có trong DOM và ngược lại
 		driver.get("https://vnk.edu.vn/");
 		sleepInSecond(15);
 		By popup = By.id("tve_editor");
@@ -92,7 +92,7 @@ public class Topic_11_Popup {
 			Assert.assertEquals(popupContent.size(), 0);
 		}
 		else {
-			System.out.println("popup không hiển thị. chow message cho zui thoi :v");
+			System.out.println("popup không hiển thị. show message cho zui thoi :v");
 		}
 		
 		driver.findElement(By.xpath("//a[text()='Đăng nhập']")).click();

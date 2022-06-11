@@ -1,15 +1,11 @@
 package webdriver;
 
-import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -38,7 +34,8 @@ public class Topic_12_Iframe_Frame {
 		driver.manage().window().maximize();
 	}
 	
-	
+	//Frame: Cùng domain
+	//Iframe: Khác domain
 		
 	//@Test
 	public void TC01_Iframe() {
